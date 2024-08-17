@@ -17,7 +17,7 @@ btnlogin.addEventListener(  "click",function(){
         text: "Wellcome Blog web!",
         icon: "success"
       });
-      window.location.replace("/htmlfile/dashboard.html")
+      window.location.replace("dashboard.html")
     })
     .catch((error) => {
       const errorCode = error.code;
