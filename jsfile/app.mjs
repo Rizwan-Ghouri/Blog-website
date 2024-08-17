@@ -14,7 +14,7 @@ btnAcc.addEventListener("click",function(){
     // Signed up 
     const user = userCredential.user;
     // ...
-    window.location.replace("/htmlfile/login.html")
+    window.location.replace("htmlfile/login.html")
     Swal.fire({
       title: "Good job!",
       text: "Account successfully!",
